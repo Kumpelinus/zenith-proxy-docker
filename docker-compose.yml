@@ -1,0 +1,13 @@
+services:
+  zenith-proxy:
+    image: kumpelinus/zenith-proxy
+    restart: unless-stopped
+    stdin_open: true
+    tty: true
+    ports:
+      - "25581:25565/tcp"
+    volumes:
+      - zenith-config:/app
+
+volumes:
+  zenith-config:
