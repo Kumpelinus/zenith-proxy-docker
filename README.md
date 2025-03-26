@@ -37,4 +37,4 @@ To run the Docker image:
 docker run -d -p 25581:25565 kumpelinus/zenith-proxy:1.21.4
 ```
 
-or use the [docker compose file](docker-compose.yml)
+or use the [docker compose file](https://github.com/Kumpelinus/zenith-proxy-docker/blob/main/docker-compose.yml)
