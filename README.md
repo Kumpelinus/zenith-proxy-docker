@@ -1,6 +1,6 @@
 # Zenith Proxy Docker Build
 
-[![Pipeline Status](https://github.com/Kumpelinus/zenith-proxy-docker/workflows/docker-image.yml/badge.svg)](https://github.com/Kumpelinus/zenith-proxy-docker/actions/workflows/docker-image.yml)
+[![Pipeline Status](https://img.shields.io/github/actions/workflow/status/Kumpelinus/zenith-proxy-docker/docker-image.yml?logo=github&label=docker%20build)](https://github.com/Kumpelinus/zenith-proxy-docker/actions/workflows/docker-image.yml)
 [![Docker Image Version](https://img.shields.io/docker/v/kumpelinus/zenith-proxy?sort=semver)](https://hub.docker.com/r/kumpelinus/zenith-proxy)
 
 ## Overview
