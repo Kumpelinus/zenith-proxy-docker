@@ -16,14 +16,8 @@ This repository automates the build and deployment of Docker images for the [Zen
 - **Automated CI/CD:**
   Scheduled GitHub Actions workflows check for updates in the upstream project and trigger builds accordingly.
 
-- **Multi-Branch Builds:**
-  Build images for different branches (e.g., `1.21.0` and `1.21.4`) simultaneously using a matrix strategy.
-
 - **Versioned Tagging:**
   Each Docker image is tagged with the branch name, commit hash, and for one primary branch, the `latest` tag.
-
-- **Efficient Builds:**
-  Multi-stage Docker builds based on Alpine and OpenJDK 17 keep images lean and fast.
 
 ## Getting Started
 
