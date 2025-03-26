@@ -1,5 +1,5 @@
 # Stage 1: Build the project using Gradle
-FROM gradle:8.2-jdk17 AS builder
+FROM gradle:8.13-jdk21 AS builder
 
 ARG BRANCH=1.21.4
 WORKDIR /app
