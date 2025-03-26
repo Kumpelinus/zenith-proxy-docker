@@ -47,8 +47,6 @@ jobs:
           push: true
           tags: |
             ${{ env.DOCKERHUB_IMAGE }}:${{ matrix.branch }}
-            ${{ env.DOCKERHUB_IMAGE }}:latest-${{ matrix.branch }}
-            ${{ env.DOCKERHUB_IMAGE }}:${{ steps.upstream.outputs.commit }}
           build-args: |
             BRANCH=${{ matrix.branch }}
 
